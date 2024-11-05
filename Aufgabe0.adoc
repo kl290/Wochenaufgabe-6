@@ -1,0 +1,13 @@
+*Anlage des Projekts*
+
+1. Einteilung der Aufgaben und Verständnis +
+- Durchlesen und Einteilen der Aufgaben in Sub Tasks  (Jira) +
+- Erstellen eines neuen Projekts in IntelliJ, dieses über VCS (Git)
+  auf GitHub teilen
+- Repository weiter eingerichtet, in der master Branch Verzeichnis
+  erstellt (Ordner zur jeweiligen Aufgabe erstellt mit +
+  "Oberaufgabe"/ "Unteraufgabe")
+- Im neuen Projekt in IntelliJ zur Dokumentation jeweils zu jeder
+  Aufgabe eine AsciiDoc erstellt
+
+

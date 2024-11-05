@@ -1,0 +1,13 @@
+*1. Grundlegende Navigation und Dateiverwaltung* +
+Ziel: Verstehen der grundlegenden Befehle zur Navigation im Dateisystem. +
+
+1. Mit dem Befehl `cd` (change dictionary) kann man das Verzeichnis wechseln.
+2.  `mkdir` + "Name des Ordners" + Enter +
+   Der aktuelle Pfad lässt sich mit dem Befehl `pwd` anzeigen.
+3. `cd` Projekte ; `mkdir` Testprojekt
+4. Mit dem Befehl `touch` lässt sich eine Datei erstellen.
+5. `cp` + README.txt + /home/kl/Projekte +
+   `mv` + README.txt + INFO.txt
+6. `mv` + INFO.txt + /home/kl/Projekte
+7. `rm` + INFO.txt
+
