@@ -10,4 +10,3 @@ Ziel: Verstehen der grundlegenden Befehle zur Navigation im Dateisystem. +
    `mv` + README.txt + INFO.txt
 6. `mv` + INFO.txt + /home/kl/Projekte
 7. `rm` + INFO.txt
-
