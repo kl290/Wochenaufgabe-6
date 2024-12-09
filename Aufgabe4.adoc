@@ -1,0 +1,14 @@
+*4. Berechtigungen und Benutzerverwaltung* +
+Ziel: Verstehen der Dateiberechtigungen und deren Änderung.  +
+
+1. *Eingabe:* `ls -l test.txt` +
+   *Ausgabe:* `-rw-r--r-- 1 kl kl 11 Oct 11 10:29 test.txt` +
+   *Bedeutung:* In diesem Beispiel bedeuten rw-r--r--, dass der Besitzer Lese- und Schreibrechte hat
+                (rw-), die Gruppe nur Leserechte (r--) und andere Benutzer ebenfalls nur Leserechte (r--).
+
+2. *Eingabe:* `chmod 600 test.txt`  +
+   Berechtigungen anzeigen lassen: `ls -l test.txt` +
+   *Ausgabe:* `-rw------- 1 kl kl 11 Oct 11 10:29 test.txt` +
+   *Bedeutung:* Der Befehl chmod ändert die Berechtigungen der Datei.
+                Die erste 6 bedeutet, dass der Besitzer der Datei Lese- und Schreibrechte hat (rw-). +
+                Die beiden 0s bedeuten, dass Gruppe und andere Benutzer keinerlei Rechte haben.
