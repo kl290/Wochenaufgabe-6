@@ -1,0 +1,12 @@
+*5. Arbeiten mit Prozessen* +
+Ziel: grundlegende Kenntnisse im Umgang mit Prozessen und deren Verwaltung.
+
+1. `ps aux` +
+   (`ps` steht für "process status" und zeigt eine Liste der laufenden Prozesse an.) +
+   (`a` zeigt Prozesse von allen Benutzern an.) +
+   (`u` zeigt die Prozesse mit zusätzlichen Informationen wie dem Besitzer an.) +
+   (`x` zeigt auch Prozesse an, die nicht an ein Terminal gebunden sind)
+
+2. `ps aux | grep bash` +
+3. `kill -9 (jeweilige PID)` +
+   (`-9` erzwingt das sofortige Beenden des Prozesses)

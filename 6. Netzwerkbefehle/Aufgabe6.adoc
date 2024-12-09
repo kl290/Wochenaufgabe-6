@@ -1,0 +1,18 @@
+*6. Netzwerkbefehle* +
+Ziel: Einführung in grundlegende Netzwerkbefehle. +
+
+1. `ip a`
+2. `dig www.intentus.de`
+3. `sudo ping www.intentus.de` +
+   Ausgabe: +
+   --- www.intentus.de ping statistics --- +
+   55 packets transmitted, 55 received, 0% packet loss, time 54096ms +
+   rtt min/avg/max/mdev = 20.556/22.112/26.899/1.195 ms
+4. `dig intentus.de MX` +
+   Ausgabe: +
+   In der *ANSWER SECTION* sieht man den Mailserver für intentus.de: +
+   *0 intentus-de.mail.protection.outlook.com.* +
+   (0: Die Priorität des Mail-Servers. Eine niedrigere Zahl bedeutet eine höhere Priorität.
+   In diesem Fall hat der Mail-Server die höchste Priorität.)
+5.  `curl -o ~/Projekte/intentus_de.html https://www.intentus.de`
+
