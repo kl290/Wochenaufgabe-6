@@ -7,3 +7,4 @@ Ziel: Einführung in Umgebungsvariablen und deren Verwaltung.
 4. `unset $MEIN_NAME` +
    Überprüfung mit `echo $MEIN_NAME` da nichts mehr angezeigt wird, wurde der Name gelöscht.
 
+
