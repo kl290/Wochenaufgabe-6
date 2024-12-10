@@ -1,1 +1,0 @@
-Wochenaufgabe 6
