@@ -1,0 +1,10 @@
+*7. Skripterstellung++* +
+Ziel: fortgeschrittene Shell-Skripte.
+
+1. `touch einmaleins.txt` +
+   `nano einmaleins.txt` +
+   echo "Gib eine Zahl ein:" +
+   read zahl +
+   for i in {1..10}; do echo "$zahl * $i = $((zahl * i))"; done +
+   `chmod +x einmaleins.txt` +
+   `./einmaleins.txt`
