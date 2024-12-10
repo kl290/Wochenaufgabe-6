@@ -1,0 +1,9 @@
+*8. Arbeiten mit Umgebungsvariablen* +
+Ziel: Einführung in Umgebungsvariablen und deren Verwaltung.
+
+1. `printenv` +
+2. `export MEIN_NAME="Kevin Lehmann"` +
+3. `echo $MEIN_NAME` +
+4. `unset $MEIN_NAME` +
+   Überprüfung mit `echo $MEIN_NAME` da nichts mehr angezeigt wird, wurde der Name gelöscht.
+
