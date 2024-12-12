@@ -2,10 +2,10 @@
 Ziel: Einführung in grundlegende Dateimanipulationen und das Arbeiten mit
 Textdateien. +
 
-1. `cat >` text.txt + Enter ; "Dies ist eine Beispielzeile." ; Strg + D
-2. `nano` text.txt (für Editor) zum Beenden Strg + X
-3. `cat` text.txt
-4. `wc` text.txt ; Ergebnis =  2 (Zeilen) 9 (Wörter) 71 (Bytes) text.txt
-5. `sed -n '1p' text.txt` (Variante 1) +
-   `head -1 text.txt | tail +1` (einsetzbar bei von bis Angaben; Variante 2)
-6. `nano` text.txt ; 1 Zeile ändern ; Strg + X ; zur Überprüfung `cat` text.txt
+1. `echo "Dies ist eine Beispielzeile" > text.txt`
+2. `echo "Weitere Zeilen können hinzugefügt werden" >> text.txt`
+3. `cat text.txt`
+4. `wc text.txt` +
+   Ausgabe =  2 (Zeilen) 9 (Wörter) 71 (Bytes) text.txt
+5. `sed -n '1p' text.txt`
+6. `sed -i 's/Beispielzeile/Testzeile/' text.txt`
