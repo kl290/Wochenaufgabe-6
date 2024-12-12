@@ -5,4 +5,4 @@ Ziel: Erlernen, wie man Dateien und Verzeichnisse über die Kommandozeile sucht.
    (was durchsucht werden soll, kann man selbst beeinflussen
    in dem man entscheidet wie viel man vom Pfad eingibt)
 2. `find /home/kl/Projekte -name *.txt`
-3. `grep "Beispielzeile" Projekte/*.txt`
+3. `grep -r "Beispielzeile" Projekte/*.txt`

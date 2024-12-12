@@ -7,5 +7,5 @@ Textdateien. +
 3. `cat text.txt`
 4. `wc text.txt` +
    Ausgabe =  2 (Zeilen) 9 (Wörter) 71 (Bytes) text.txt
-5. `sed -n '1p' text.txt`
+5. `head -1 text.txt`
 6. `sed -i 's/Beispielzeile/Testzeile/' text.txt`
