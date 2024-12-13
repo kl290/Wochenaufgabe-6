@@ -1,7 +1,8 @@
 *6. Netzwerkbefehle* +
 Ziel: Einführung in grundlegende Netzwerkbefehle. +
 
-1. `ip a`
+1. `ip a` +
+   *Antwort:* 172.30.19.4
 2. `dig www.intentus.de`
 3. `sudo ping www.intentus.de` +
    Ausgabe: +
