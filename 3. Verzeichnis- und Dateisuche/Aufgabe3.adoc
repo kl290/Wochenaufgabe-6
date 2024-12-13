@@ -1,8 +1,8 @@
 *3. Verzeichnis- und Dateisuche* +
 Ziel: Erlernen, wie man Dateien und Verzeichnisse über die Kommandozeile sucht. +
 
-1. `find /home/kl text.txt` +
+1. `find /home/kl -name "text.txt"` +
    (was durchsucht werden soll, kann man selbst beeinflussen
    in dem man entscheidet wie viel man vom Pfad eingibt)
-2. `find /home/kl/Projekte -name *.txt`
+2. `find /home/kl/Projekte -name "*.txt"`
 3. `grep -r "Beispielzeile" Projekte/*.txt`
