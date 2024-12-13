@@ -6,7 +6,7 @@ Ziel: Verstehen der grundlegenden Befehle zur Navigation im Dateisystem. +
 3. `cd Projekte` +
    `mkdir Testprojekt`
 4. `cd Testprojekt` +
-   `touch README.txtt`
+   `touch README.txt`
 5. `cp README.txt INFO.txt`
 6. `mv INFO.txt /home/kl/Projekte`
 7. `rm ../INFO.txt`
