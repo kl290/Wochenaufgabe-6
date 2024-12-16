@@ -1,28 +1,21 @@
 *7. Skripterstellung* +
 Ziel: Einführung in einfache Shell-Skripte.
 
-1.  `touch Begrüßung.txt` +
-    `nano Begrüßung.txt` +
-    echo "Hallo Welt" +
-    echo "Aktuelles Datum und Uhrzeit: $(date)" +
-    `chmod +x Begrüßung.txt` +
-    `./Begrüßung.txt`
+1.  `#!/bin/bash +
+     echo "Hallo Welt" +
+     echo "Aktuelles Datum und Uhrzeit: $(date)"`
 
-2.  `touch Zähler.txt` +
-    `nano Zähler.txt` +
-    anzahl=$(ls -1 *.txt 2>/dev/null | wc -l) +
-    echo "Anzahl der .txt-Dateien im aktuellen Verzeichnis: $anzahl" +
-    `chmod +x Zähler.txt` +
-    `./Zähler.txt`
+2. `#!/bin/bash +
+    count=$(ls *.txt | wc -l) +
+    echo "Anzahl der .txt-Dateien: $count"`
 
-3.  `touch schleife.txt` +
-    `nano schleife.txt` +
+3. `#!/bin/bash +
     for i in {1..10} +
     do +
     echo $i +
-    done +
-    `chmod +x schleife.txt` +
-    `./schleife.txt`
+    done`
+
+
 
 
 
